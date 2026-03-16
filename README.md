@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi, I'm Rishika!
 
-<!--
-**R15hika/R15hika** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A Computer Science Real-Time Interactive Simulation student at SIT-DigiPen 💻
 
-Here are some ideas to get you started:
+I enjoy building implementation-heavy projects in computer graphics, real-time systems, and interactive software. Most of my recent work has been around C/C++, rendering, and low-level problem solving, and I'm always open to exploring new languages and tools through projects.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Interests
+- Artificial Intelligence
+- Computer Graphics
+- Computer Vision
+- Data Analytics
+- Real-Time Systems
+- Robotic Process Automation
+- XR
+  
+## Technical Background
+- Programming: `C` `C++` `Python`
+- Graphics & Systems: `OpenGL` `GLSL` `Data Structures & Algorithms`
+- Automation: `UiPath` `RPA`
+- Emerging Areas: `AI` `XR` `Data Analytics`
+
+## Links
+- [LinkedIn](https://www.linkedin.com/in/rishikaba/)
+- [Youtube](https://www.youtube.com/@RishBiA)
