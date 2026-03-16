@@ -13,7 +13,7 @@ I enjoy building implementation-heavy projects in computer graphics, real-time s
 - Robotic Process Automation
 - XR
   
-## 💻 Technical Background
+## 💻 Technical Skills
 - Programming: `C` `C++` `Python`
 - Graphics & Systems: `OpenGL` `GLSL` `Data Structures & Algorithms`
 - Automation: `UiPath` `RPA`
