@@ -18,7 +18,3 @@ I enjoy building implementation-heavy projects in computer graphics, real-time s
 - Graphics & Systems: `OpenGL` `GLSL` `Data Structures & Algorithms`
 - Automation: `UiPath` `RPA`
 - Emerging Areas: `AI` `XR` `Data Analytics`
-
-## Links
-- [LinkedIn](https://www.linkedin.com/in/rishikaba/)
-- [Youtube](https://www.youtube.com/@RishBiA)
