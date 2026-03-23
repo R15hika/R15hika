@@ -1,4 +1,4 @@
-# Hi, I'm Rishika!
+# Hello, I'm Rishika
 
 A Computer Science Real-Time Interactive Simulation student at SIT-DigiPen 
 
