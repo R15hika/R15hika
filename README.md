@@ -74,52 +74,7 @@ A night-shift point-and-click game where you keep four zoo animals fed, healthy 
 
 <br/>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🧩 Multiplayer Sudoku Rush
-<sub>2-person team · Backend, database &amp; gameplay · 2026</sub>
-
-A real-time Sudoku race for 2–3 players. I designed the **SQLite database** behind it: accounts, friends, and a per-player match history that records score, wrong guesses, hints used, total and average solve time, and rank for every round. The server checks every move over UDP.
-
-`C++` `SQLite` `Database design` `UDP`
-
-</td>
-<td width="50%" valign="top">
-
-#### 🍪 The Gingerbread Curse
-<sub>3-person team · Team lead · Nov 2026</sub>
-
-A 2-player co-op game in C. I built the **accounts system on MongoDB** with a local-file fallback, salted PBKDF2-SHA256 password hashing on its own auth thread, and encrypted Cyclone DDS so all game data is authenticated.
-
-`C` `MongoDB` `PBKDF2` `Cyclone DDS`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 📅 Exam Revision Timeline
-<sub>App built solo · Data Structures · 2026</sub>
-
-A desktop planner built around its **data model**: exams are stored in a binary search tree keyed by start time, so they're always sorted. Input is validated for duplicates and bad times, overlapping exams are flagged, and a lower-bound search finds your next exam.
-
-`C++` `Data modelling` `BST` `Win32`
-
-</td>
-<td width="50%" valign="top">
-
-#### 🔺 3D Software Rasterizer
-<sub>Solo · Computer Graphics · 2025</sub>
-
-An OpenGL-style pipeline written by hand in C++, with every pixel drawn on the CPU: barycentric rasterization, a depth buffer, perspective-correct texturing, frustum culling and clipping. It renders about 60 lit objects with shadows.
-
-`C++` `Rasterization` `3D maths`
-
-</td>
-</tr>
-</table>
+<img src="./projects.svg" alt="More projects: Multiplayer Sudoku Rush (C++, SQLite database design), The Gingerbread Curse (C, MongoDB accounts, encrypted networking), Exam Revision Timeline (C++, BST data model), 3D Software Rasterizer (C++, CPU rendering)" width="100%"/>
 
 <br/>
 
