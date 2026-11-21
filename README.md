@@ -61,14 +61,16 @@ A Unity 3D simulator that trains autonomous-shuttle fleet managers on real Singa
 #### 🦉 Luminara Zoo
 <sub><b>8-person team (NocturnalStudios)</b> · Graphics Champion · Sep 2025 to Apr 2026</sub>
 
-A night-shift point-and-click game where you keep four zoo animals fed, healthy and sane until 6 am. It runs on our own **custom C++ / OpenGL engine** with an ECS and an ImGui level editor, and shipped across six milestones.
+A night-shift point-and-click game where you keep four zoo animals fed, healthy and sane until 6 am. I built the rendering core of our own **custom C++ / OpenGL engine** across six milestones, as primary author of 12 engine files.
 
-- **Rendering:** sprites with GLM transforms, prefab/JSON-driven rendering and the 2D camera.
-- **VFX:** particle system and scene-level effects (fireflies, falling leaves, water, film grain).
-- **Layering system** shared by graphics, logic, physics and collision, with drag-to-reorder in the editor.
-- **Engine setup:** project scaffolding, CMake build pipeline and the Windows installer.
+<img src="./stats-luminara.svg" alt="168 commits · ~2,800 lines of engine code · 22 scenes" width="480"/>
 
-`C++` `OpenGL` `ECS` `ImGui` `RapidJSON` `CMake` · 🎬 [Demo video](YOUR-LINK) · 📁 [Repo](https://github.com/nursyazliyarni/NocturnalStudios)
+- **Engine setup:** built the engine from scratch, integrating 6 libraries (GLFW, GLEW, GLM, ImGui, STB, RapidJSON) into a CMake build that separates Engine and Game, with a one-click script so all 8 teammates could build it.
+- **Renderer:** wrote the renderer, sprite rendering, shader, buffer and framebuffer classes and a 2D camera with zoom, plus a layering system with drag-to-reorder in the ImGui editor.
+- **Particles &amp; VFX:** a JSON-driven particle and screen-effect system with 5 GLSL shaders (floating particles, falling leaves, water, static camera), each toggled per scene in the editor without code changes.
+- **Shipping:** a Windows installer and uninstaller (Inno Setup) that bundles the release and its assets, refined over 3 versions until it installed cleanly on school lab PCs.
+
+`C++` `OpenGL` `GLSL` `ECS` `ImGui` `RapidJSON` `CMake` `Inno Setup` · 🎬 [Demo video](YOUR-LINK) · 📁 [Repo](https://github.com/nursyazliyarni/NocturnalStudios)
 
 <br/>
 
