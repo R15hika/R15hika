@@ -4,16 +4,16 @@
 
 <br/>
 
-<a href="https://YOUR-PORTFOLIO-URL"><img src="https://img.shields.io/badge/Portfolio-ff5fb4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
-<a href="https://www.linkedin.com/in/rishikaba"><img src="https://img.shields.io/badge/LinkedIn-9d4dff?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://www.youtube.com/@RishBiA"><img src="https://img.shields.io/badge/Demo_Videos-c94dff?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
-<a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-6b2bbf?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://YOUR-PORTFOLIO-URL"><img src="./btn-portfolio.svg" alt="Portfolio" height="52"/></a>
+<a href="https://www.linkedin.com/in/rishikaba"><img src="./btn-linkedin.svg" alt="LinkedIn" height="52"/></a>
+<a href="https://www.youtube.com/@RishBiA"><img src="./btn-youtube.svg" alt="Demo videos on YouTube" height="52"/></a>
+<a href="mailto:YOUR-EMAIL"><img src="./btn-email.svg" alt="Email" height="52"/></a>
 
 </div>
 
 <img src="./divider.svg" width="100%"/>
 
-### 🦋 &nbsp;About me
+<img src="./h-about.svg" alt="About me" width="100%"/>
 
 I build real-time software in **C and C++**: renderers, engine systems and networked games, mostly from scratch.
 I've written a 3D rasterizer that draws every pixel on the CPU, been Graphics Champion on a custom OpenGL engine, and right now I'm turning real Singapore streets into a 3D training simulator for autonomous shuttles.
@@ -37,22 +37,16 @@ I've written a 3D rasterizer that draws every pixel on the CPU, been Graphics Ch
 </tr>
 </table>
 
-<img src="./divider.svg" width="100%"/>
+<br/>
 
-### 🌷 &nbsp;Featured work
+<img src="./h-work.svg" alt="Featured work" width="100%"/>
 
 #### 🚐 Formula 9: Autonomous Shuttle Fleet Training Simulator
 <sub><b>9-person multidisciplinary team</b> · Visualisation &amp; Integration Lead · Sep 2026 to present</sub>
 
 A Unity 3D simulator that trains autonomous-shuttle fleet managers on real Singapore streets: route planning, incident response and battery charging, then watching the fleet drive it out in 3D.
 
-<table>
-<tr>
-<td align="center"><b>1,066</b><br/><sub>real Toa Payoh buildings in 3D</sub></td>
-<td align="center"><b>5,249</b><br/><sub>real LTA bus stops on the map</sub></td>
-<td align="center"><b>141</b><br/><sub>automated tests (pytest + Unity)</sub></td>
-</tr>
-</table>
+<img src="./stats-f9.svg" alt="1,066 real Toa Payoh buildings in 3D · 5,249 real LTA bus stops · 141 automated tests" width="100%"/>
 
 - **Unity port:** moved the earlier native client into Unity across 133 files, rebuilding 8 UI pages and the live fleet map on OpenStreetMap tiles.
 - **3D city:** built Toa Payoh from 1,066 real buildings in 5 data-driven styles (HDB, office, low-rise, landed, other), with custom shaders, shadows, a procedural sky and 5 shuttles on colour-coded routes.
@@ -125,9 +119,9 @@ A raw Win32 desktop planner. Exams live in a **binary search tree** keyed by sta
 </tr>
 </table>
 
-<img src="./divider.svg" width="100%"/>
+<br/>
 
-### 🪻 &nbsp;Toolkit
+<img src="./h-toolkit.svg" alt="Toolkit" width="100%"/>
 
 <p>
 <img src="https://img.shields.io/badge/C-2d1046?style=flat-square&logo=c&logoColor=ff8fd0"/>
@@ -144,9 +138,9 @@ A raw Win32 desktop planner. Exams live in a **binary search tree** keyed by sta
 <img src="https://img.shields.io/badge/Git-2d1046?style=flat-square&logo=git&logoColor=ff8fd0"/>
 </p>
 
-<img src="./divider.svg" width="100%"/>
+<br/>
 
-### 🐛 → 🦋 &nbsp;Metamorphosis
+<img src="./h-journey.svg" alt="Metamorphosis" width="100%"/>
 
 | | When | What I learned to build |
 |:-:|:--|:--|
