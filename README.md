@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://r15hika.github.io/RishikaBimalAttodiPortfolio/"><img src="./btn-portfolio.svg" alt="Portfolio" height="52"/></a>
-<a href="https://www.linkedin.com/in/rishikaba"><img src="./btn-linkedin.svg" alt="LinkedIn" height="52"/></a>
+<a href="https://www.linkedin.com/in/rishika-dice/"><img src="./btn-linkedin.svg" alt="LinkedIn" height="52"/></a>
 <a href="https://www.youtube.com/@RishBiA"><img src="./btn-youtube.svg" alt="Demo videos on YouTube" height="52"/></a>
 <a href="mailto:rishikabimal@gmail.com"><img src="./btn-email.svg" alt="Email" height="52"/></a>
 
@@ -87,6 +87,7 @@ A night-shift point-and-click game where you keep four zoo animals fed, healthy 
 <img src="https://img.shields.io/badge/Python-2d1046?style=flat-square&logo=python&logoColor=ff8fd0"/>
 <img src="https://img.shields.io/badge/OpenGL-2d1046?style=flat-square&logo=opengl&logoColor=ff8fd0"/>
 <img src="https://img.shields.io/badge/GLSL-2d1046?style=flat-square&logo=opengl&logoColor=ff8fd0"/>
+<img src="https://img.shields.io/badge/Power_BI-2d1046?style=flat-square&logo=powerbi&logoColor=ff8fd0"/>
 <img src="https://img.shields.io/badge/Unity-2d1046?style=flat-square&logo=unity&logoColor=ff8fd0"/>
 <img src="https://img.shields.io/badge/FastAPI-2d1046?style=flat-square&logo=fastapi&logoColor=ff8fd0"/>
 <img src="https://img.shields.io/badge/SQLite-2d1046?style=flat-square&logo=sqlite&logoColor=ff8fd0"/>
