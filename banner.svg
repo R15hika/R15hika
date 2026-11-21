@@ -75,25 +75,26 @@
     <path d="M880 285 l2.5 6.5 6.5 2.5 -6.5 2.5 -2.5 6.5 -2.5 -6.5 -6.5 -2.5 6.5 -2.5z"><animate attributeName="opacity" values="1;0.2;1" dur="3.1s" repeatCount="indefinite"/></path>
   </g>
 
-  <!-- dotted flight trail -->
-  <path d="M60,250 C220,120 330,330 520,230 S860,90 1140,170" fill="none" stroke="#ff9ad5" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="2 9" stroke-linecap="round"/>
+    <!-- dotted flight trail -->
+  <path d="M80,285 C300,318 900,318 1120,285 C1165,220 1165,130 1120,75 C900,42 300,42 80,75 C35,130 35,220 80,285 Z" fill="none" stroke="#ff9ad5" stroke-opacity="0.22" stroke-width="2" stroke-dasharray="2 9" stroke-linecap="round"/>
 
   <!-- flying butterflies -->
   <g>
     <use xlink:href="#flyA" transform="scale(0.8)"/>
-    <animateMotion dur="14s" repeatCount="indefinite" rotate="auto" path="M60,250 C220,120 330,330 520,230 S860,90 1140,170"/>
+    <animateMotion dur="22s" repeatCount="indefinite" path="M80,285 C300,318 900,318 1120,285 C1165,220 1165,130 1120,75 C900,42 300,42 80,75 C35,130 35,220 80,285 Z"/>
   </g>
-  <g transform="translate(1080 95)">
+  <g transform="translate(1030 200)">
     <g>
       <use xlink:href="#flyB" transform="rotate(18) scale(0.75)"/>
       <animateTransform attributeName="transform" type="translate" values="0 0;-8 -10;0 0" dur="4s" repeatCount="indefinite"/>
     </g>
   </g>
-  <g transform="translate(120 105)">
+  <g transform="translate(175 190)">
     <g>
       <use xlink:href="#flyA" transform="rotate(-15) scale(0.6)"/>
       <animateTransform attributeName="transform" type="translate" values="0 0;6 -8;0 0" dur="3.4s" repeatCount="indefinite"/>
     </g>
+  </g>
   </g>
 
   <!-- text -->
