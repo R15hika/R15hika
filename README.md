@@ -4,10 +4,10 @@
 
 <br/>
 
-<a href="https://YOUR-PORTFOLIO-URL"><img src="./btn-portfolio.svg" alt="Portfolio" height="52"/></a>
+<a href="https://r15hika.github.io/RishikaBimalAttodiPortfolio/"><img src="./btn-portfolio.svg" alt="Portfolio" height="52"/></a>
 <a href="https://www.linkedin.com/in/rishikaba"><img src="./btn-linkedin.svg" alt="LinkedIn" height="52"/></a>
 <a href="https://www.youtube.com/@RishBiA"><img src="./btn-youtube.svg" alt="Demo videos on YouTube" height="52"/></a>
-<a href="mailto:YOUR-EMAIL"><img src="./btn-email.svg" alt="Email" height="52"/></a>
+<a href="mailto:rishikabimal@gmail.com"><img src="./btn-email.svg" alt="Email" height="52"/></a>
 
 </div>
 
