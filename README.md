@@ -15,24 +15,24 @@
 
 <img src="./h-about.svg" alt="About me" width="100%"/>
 
-I build real-time software in **C and C++**: renderers, engine systems and networked games, mostly from scratch.
-I've written a 3D rasterizer that draws every pixel on the CPU, been Graphics Champion on a custom OpenGL engine, and right now I'm turning real Singapore streets into a 3D training simulator for autonomous shuttles.
+I build software that turns **real-world data** into something people can use: data pipelines and APIs, the databases behind multiplayer games, and real-time C/C++ for graphics and engines.
+Next, I want to bring that into **data and business analysis**: taking raw data, structuring it, and turning it into answers.
 
 <table>
 <tr>
-<td>🌸 <b>Now</b></td>
+<td width="130" nowrap>🌸&nbsp;<b>Now</b></td>
 <td>Visualisation &amp; Integration Lead on <b>Formula 9</b>, an autonomous shuttle fleet simulator (9-person team)</td>
 </tr>
 <tr>
-<td>🎓 <b>Studying</b></td>
+<td width="130" nowrap>🎓&nbsp;<b>Studying</b></td>
 <td>B.Sc. Computer Science in Real-Time Interactive Simulation, <b>SIT-DigiPen Singapore</b></td>
 </tr>
 <tr>
-<td>✨ <b>Strengths</b></td>
-<td>Rendering, engine systems, server-authoritative networking</td>
+<td width="130" nowrap>✨&nbsp;<b>Strengths</b></td>
+<td>Data pipelines &amp; REST APIs · database design (SQLite, MongoDB) · data modelling · Python, C/C++</td>
 </tr>
 <tr>
-<td>💌 <b>Open to</b></td>
+<td width="130" nowrap>💌&nbsp;<b>Open&nbsp;to</b></td>
 <td>Internships in data analysis and business analysis</td>
 </tr>
 </table>
@@ -78,44 +78,44 @@ A night-shift point-and-click game where you keep four zoo animals fed, healthy 
 <tr>
 <td width="50%" valign="top">
 
-#### 🔺 3D Software Rasterizer
-<sub>Solo · Computer Graphics · 2025</sub>
+#### 🧩 Multiplayer Sudoku Rush
+<sub>2-person team · Backend, database &amp; gameplay · 2026</sub>
 
-An OpenGL-style pipeline written by hand in C++, with every pixel drawn on the CPU: barycentric rasterization, a depth buffer, perspective-correct texturing, frustum culling and Sutherland–Hodgman clipping. It renders about 60 lit objects with shadows.
+A real-time Sudoku race for 2–3 players. I designed the **SQLite database** behind it: accounts, friends, and a per-player match history that records score, wrong guesses, hints used, total and average solve time, and rank for every round. The server checks every move over UDP.
 
-`C++` `Rasterization` `Clipping` · 🎬 [Demo](YOUR-LINK)
+`C++` `SQLite` `Database design` `UDP` · 📁 [Repo](https://github.com/R15hika/MultiplayerSudokuGame)
 
 </td>
 <td width="50%" valign="top">
 
-#### 🧩 Multiplayer Sudoku Rush
-<sub>2-person team · Backend &amp; gameplay · 2026</sub>
+#### 🍪 The Gingerbread Curse
+<sub>3-person team · Team lead · Nov 2026</sub>
 
-A real-time Sudoku race for 2–3 players over **UDP with a custom reliability layer**. The server validates every move and decides who claimed each cell first. It also has rooms, a live leaderboard and SQLite match history.
+A 2-player co-op game in C. I built the **accounts system on MongoDB** with a local-file fallback, salted PBKDF2-SHA256 password hashing on its own auth thread, and encrypted Cyclone DDS so all game data is authenticated.
 
-`C++` `UDP` `SQLite` `Win32` · 📁 [Repo](https://github.com/R15hika/MultiplayerSudokuGame)
+`C` `MongoDB` `PBKDF2` `Cyclone DDS` · 🎬 [Demo](YOUR-LINK)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### 🍪 The Gingerbread Curse
-<sub>3-person team · Team lead · Nov 2026</sub>
+#### 📅 Exam Revision Timeline
+<sub>App built solo · Data Structures · 2026</sub>
 
-A 2-player co-op potion game in C over **encrypted Cyclone DDS**, where the host enforces the rules. I built salted PBKDF2 accounts on a separate auth thread, DDS Security, rejoin, and one-click setup.
+A desktop planner built around its **data model**: exams are stored in a binary search tree keyed by start time, so they're always sorted. Input is validated for duplicates and bad times, overlapping exams are flagged, and a lower-bound search finds your next exam.
 
-`C` `Cyclone DDS` `OpenGL` `Threads` · 🎬 [Demo](YOUR-LINK)
+`C++` `Data modelling` `BST` `Win32` · 📁 [Repo](https://github.com/R15hika/ExamTimelineC-Version)
 
 </td>
 <td width="50%" valign="top">
 
-#### 📅 Exam Revision Timeline
-<sub>App built solo · Data Structures · 2026</sub>
+#### 🔺 3D Software Rasterizer
+<sub>Solo · Computer Graphics · 2025</sub>
 
-A raw Win32 desktop planner. Exams live in a **binary search tree** keyed by start time, the app catches clashing exam times, and a lower-bound search finds your next exam without scanning every record.
+An OpenGL-style pipeline written by hand in C++, with every pixel drawn on the CPU: barycentric rasterization, a depth buffer, perspective-correct texturing, frustum culling and clipping. It renders about 60 lit objects with shadows.
 
-`C++` `Win32` `BST` `GDI` · 📁 [Repo](https://github.com/R15hika/ExamTimelineC-Version)
+`C++` `Rasterization` `3D maths` · 🎬 [Demo](YOUR-LINK)
 
 </td>
 </tr>
@@ -136,6 +136,7 @@ A raw Win32 desktop planner. Exams live in a **binary search tree** keyed by sta
 <img src="https://img.shields.io/badge/FastAPI-2d1046?style=flat-square&logo=fastapi&logoColor=ff8fd0"/>
 <img src="https://img.shields.io/badge/SQLite-2d1046?style=flat-square&logo=sqlite&logoColor=ff8fd0"/>
 <img src="https://img.shields.io/badge/MongoDB-2d1046?style=flat-square&logo=mongodb&logoColor=ff8fd0"/>
+<img src="https://img.shields.io/badge/UiPath-2d1046?style=flat-square&logo=uipath&logoColor=ff8fd0"/>
 <img src="https://img.shields.io/badge/CMake-2d1046?style=flat-square&logo=cmake&logoColor=ff8fd0"/>
 <img src="https://img.shields.io/badge/Git-2d1046?style=flat-square&logo=git&logoColor=ff8fd0"/>
 </p>
@@ -147,11 +148,11 @@ A raw Win32 desktop planner. Exams live in a **binary search tree** keyed by sta
 | | When | What I learned to build |
 |:-:|:--|:--|
 | 🥚 | May 2025 | A 3D pipeline by hand: what the GPU does for you |
-| 🐛 | Sep 2025 | Engine systems other programmers build on (Luminara Zoo) |
-| 🍃 | Feb 2026 | Choosing the right data structure (Exam Timeline) |
-| 🌸 | Mar 2026 | Server-authoritative multiplayer over UDP (Sudoku Rush) |
-| 🦋 | Sep 2026 | Full-stack simulation on real city data (Formula 9) |
-| ✨ | Nov 2026 | Secure, encrypted networking in C, as team lead (Gingerbread Curse) |
+| 🐛 | Sep 2025 | JSON-driven engine systems other programmers build on (Luminara Zoo) |
+| 🍃 | Feb 2026 | Modelling data so it stays sorted and searchable (Exam Timeline) |
+| 🌸 | Mar 2026 | Designing a SQLite database for match history and stats (Sudoku Rush) |
+| 🦋 | Sep 2026 | Data pipelines and APIs on real city data (Formula 9) |
+| ✨ | Nov 2026 | Secure MongoDB accounts, as team lead (Gingerbread Curse) |
 
 <div align="center">
 <br/>
