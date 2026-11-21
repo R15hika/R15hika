@@ -54,7 +54,7 @@ A Unity 3D simulator that trains autonomous-shuttle fleet managers on real Singa
 - **Charging, end to end:** Unity UI, FastAPI endpoints and JSON schemas for booking across 4 chargers, with overlap and conflict checks so a port is never double-booked. Also fixed a charging deadlock.
 - **Road-detail pipeline:** data pipeline and REST API for 62 signalised junctions (683 signal heads), 151 crossings and 10,000+ road markings.
 
-`Unity 6` `C#` `Python` `FastAPI` `JSON Schema` `pytest` `ShaderLab` `Procedural textures` `OpenStreetMap` · 🎬 [Demo video](YOUR-LINK) · 🔒 private team repo
+`Unity 6` `C#` `Python` `FastAPI` `JSON Schema` `pytest` `ShaderLab` `Procedural textures` `OpenStreetMap`
 
 <br/>
 
@@ -70,7 +70,7 @@ A night-shift point-and-click game where you keep four zoo animals fed, healthy 
 - **Particles &amp; VFX:** a JSON-driven particle and screen-effect system with 5 GLSL shaders (floating particles, falling leaves, water, static camera), each toggled per scene in the editor without code changes.
 - **Shipping:** a Windows installer and uninstaller (Inno Setup) that bundles the release and its assets, refined over 3 versions until it installed cleanly on school lab PCs.
 
-`C++` `OpenGL` `GLSL` `ECS` `ImGui` `RapidJSON` `CMake` `Inno Setup` · 🎬 [Demo video](YOUR-LINK) · 📁 [Repo](https://github.com/nursyazliyarni/NocturnalStudios)
+`C++` `OpenGL` `GLSL` `ECS` `ImGui` `RapidJSON` `CMake` `Inno Setup`
 
 <br/>
 
@@ -83,7 +83,7 @@ A night-shift point-and-click game where you keep four zoo animals fed, healthy 
 
 A real-time Sudoku race for 2–3 players. I designed the **SQLite database** behind it: accounts, friends, and a per-player match history that records score, wrong guesses, hints used, total and average solve time, and rank for every round. The server checks every move over UDP.
 
-`C++` `SQLite` `Database design` `UDP` · 📁 [Repo](https://github.com/R15hika/MultiplayerSudokuGame)
+`C++` `SQLite` `Database design` `UDP`
 
 </td>
 <td width="50%" valign="top">
@@ -93,7 +93,7 @@ A real-time Sudoku race for 2–3 players. I designed the **SQLite database** be
 
 A 2-player co-op game in C. I built the **accounts system on MongoDB** with a local-file fallback, salted PBKDF2-SHA256 password hashing on its own auth thread, and encrypted Cyclone DDS so all game data is authenticated.
 
-`C` `MongoDB` `PBKDF2` `Cyclone DDS` · 🎬 [Demo](YOUR-LINK)
+`C` `MongoDB` `PBKDF2` `Cyclone DDS`
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ A 2-player co-op game in C. I built the **accounts system on MongoDB** with a lo
 
 A desktop planner built around its **data model**: exams are stored in a binary search tree keyed by start time, so they're always sorted. Input is validated for duplicates and bad times, overlapping exams are flagged, and a lower-bound search finds your next exam.
 
-`C++` `Data modelling` `BST` `Win32` · 📁 [Repo](https://github.com/R15hika/ExamTimelineC-Version)
+`C++` `Data modelling` `BST` `Win32`
 
 </td>
 <td width="50%" valign="top">
@@ -115,7 +115,7 @@ A desktop planner built around its **data model**: exams are stored in a binary 
 
 An OpenGL-style pipeline written by hand in C++, with every pixel drawn on the CPU: barycentric rasterization, a depth buffer, perspective-correct texturing, frustum culling and clipping. It renders about 60 lit objects with shadows.
 
-`C++` `Rasterization` `3D maths` · 🎬 [Demo](YOUR-LINK)
+`C++` `Rasterization` `3D maths`
 
 </td>
 </tr>
