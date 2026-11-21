@@ -102,12 +102,12 @@ A night-shift point-and-click game where you keep four zoo animals fed, healthy 
 
 | | When | What I learned to build |
 |:-:|:--|:--|
-| 🥚 | May 2025 | A 3D pipeline by hand: what the GPU does for you |
-| 🐛 | Sep 2025 | JSON-driven engine systems other programmers build on (Luminara Zoo) |
-| 🍃 | Feb 2026 | Modelling data so it stays sorted and searchable (Exam Timeline) |
+| 🦋 | Nov 2026 | Secure MongoDB accounts, as team lead (Gingerbread Curse) |
+| ✨ | Sep 2026 | Data pipelines and APIs on real city data (Formula 9) |
 | 🌸 | Mar 2026 | Designing a SQLite database for match history and stats (Sudoku Rush) |
-| 🦋 | Sep 2026 | Data pipelines and APIs on real city data (Formula 9) |
-| ✨ | Nov 2026 | Secure MongoDB accounts, as team lead (Gingerbread Curse) |
+| 🍃 | Feb 2026 | Modelling data so it stays sorted and searchable (Exam Timeline) |
+| 🐛 | Sep 2025 | JSON-driven engine systems other programmers build on (Luminara Zoo) |
+| 🥚 | May 2025 | A 3D pipeline by hand: what the GPU does for you |
 
 <div align="center">
 <br/>
