@@ -28,7 +28,7 @@ I've written a 3D rasterizer that draws every pixel on the CPU, been Graphics Ch
 <td>B.Sc. Computer Science in Real-Time Interactive Simulation, <b>SIT-DigiPen Singapore</b></td>
 </tr>
 <tr>
-<td>✨ <b>Most at home in</b></td>
+<td>✨ <b>Strengths</b></td>
 <td>Rendering, engine systems, server-authoritative networking</td>
 </tr>
 <tr>
