@@ -56,10 +56,11 @@ A Unity 3D simulator that trains autonomous-shuttle fleet managers on real Singa
 
 - **Unity port:** moved the earlier native client into Unity across 133 files, rebuilding 8 UI pages and the live fleet map on OpenStreetMap tiles.
 - **3D city:** built Toa Payoh from 1,066 real buildings in 5 data-driven styles (HDB, office, low-rise, landed, other), with custom shaders, shadows, a procedural sky and 5 shuttles on colour-coded routes.
+- **Procedural textures:** wrote a Unity editor tool that paints every building style from JSON using tileable fractal noise (windows, balconies, curtains, weathering) with matching normal maps, packed into 4 texture arrays. It replaced 10 hand-made PNGs, and restyling is now a one-click rebuild.
 - **Charging, end to end:** Unity UI, FastAPI endpoints and JSON schemas for booking across 4 chargers, with overlap and conflict checks so a port is never double-booked. Also fixed a charging deadlock.
 - **Road-detail pipeline:** data pipeline and REST API for 62 signalised junctions (683 signal heads), 151 crossings and 10,000+ road markings.
 
-`Unity 6` `C#` `Python` `FastAPI` `JSON Schema` `pytest` `ShaderLab` `OpenStreetMap` · 🎬 [Demo video](YOUR-LINK) · 🔒 private team repo
+`Unity 6` `C#` `Python` `FastAPI` `JSON Schema` `pytest` `ShaderLab` `Procedural textures` `OpenStreetMap` · 🎬 [Demo video](YOUR-LINK) · 🔒 private team repo
 
 <br/>
 
