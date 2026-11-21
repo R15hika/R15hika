@@ -33,7 +33,7 @@ I've written a 3D rasterizer that draws every pixel on the CPU, been Graphics Ch
 </tr>
 <tr>
 <td>💌 <b>Open to</b></td>
-<td>Internships in graphics, simulation and real-time systems</td>
+<td>Internships in data analysis and business analysis</td>
 </tr>
 </table>
 
@@ -46,7 +46,7 @@ I've written a 3D rasterizer that draws every pixel on the CPU, been Graphics Ch
 
 A Unity 3D simulator that trains autonomous-shuttle fleet managers on real Singapore streets: route planning, incident response and battery charging, then watching the fleet drive it out in 3D.
 
-<img src="./stats-f9.svg" alt="1,066 real Toa Payoh buildings in 3D · 5,249 real LTA bus stops · 141 automated tests" width="100%"/>
+<img src="./stats-f9.svg" alt="1,066 real Toa Payoh buildings in 3D · 5,249 real LTA bus stops · 141 automated tests" width="480"/>
 
 - **Unity port:** moved the earlier native client into Unity across 133 files, rebuilding 8 UI pages and the live fleet map on OpenStreetMap tiles.
 - **3D city:** built Toa Payoh from 1,066 real buildings in 5 data-driven styles (HDB, office, low-rise, landed, other), with custom shaders, shadows, a procedural sky and 5 shuttles on colour-coded routes.
