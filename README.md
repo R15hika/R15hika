@@ -29,11 +29,11 @@ Next, I want to bring that into **data and business analysis**: taking raw data,
 </tr>
 <tr>
 <td width="130" nowrap>✨&nbsp;<b>Strengths</b></td>
-<td>Data pipelines &amp; REST APIs · database design (SQLite, MongoDB) · data modelling · Python, C/C++</td>
+<td>Data pipelines &amp; REST APIs · database design (SQLite, MongoDB) · data modelling · Python, C/C++ · OpenGL/GLSL rendering · procedural 3D from real map data</td>
 </tr>
 <tr>
 <td width="130" nowrap>💌&nbsp;<b>Open&nbsp;to</b></td>
-<td>Internships in data analysis and business analysis</td>
+<td>Internships in data analysis, business analysis, and graphics &amp; simulation</td>
 </tr>
 </table>
 
